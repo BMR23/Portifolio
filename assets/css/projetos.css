@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+#projetos > h2{
+    background: white;
+}
+#projetos {
+    height: 100vh;
+    background-color: white     ;
+}
