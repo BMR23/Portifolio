@@ -3,6 +3,7 @@
     font-size: calc(var(--small-font-size) + .15rem);
     padding: 1rem 4rem;
     margin-top: calc(var(--spacing) / 2);
+    margin-bottom: var(--spacing);
 }
 
 .sobre-content-1 {
