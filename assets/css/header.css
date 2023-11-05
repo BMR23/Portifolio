@@ -7,7 +7,8 @@
 
 .menu {
     position: fixed;
-    width: 100vw;
+    width: 100%;
+    max-width: 100vw;
     /* height: 10vh; */
     height: 6rem;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
@@ -41,6 +42,16 @@
     grid-template-columns: 60% 40%;
     width: 100%;
 }
+
+@media (max-width: 780px) {
+    .menu-content > nav {
+        display: none;
+    }
+    .menu-content {
+        display: inline-block;
+    }
+}
+
 .menu-links-content {
     display: flex;
     align-items: center;
